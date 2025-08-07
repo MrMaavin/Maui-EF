@@ -12,6 +12,8 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="SQLitePCLRaw.bundle_e_sqlcipher" Version="2.1.11" />
+      <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3.android" Version="2.1.11" />
     </ItemGroup>
 
     <ItemGroup>

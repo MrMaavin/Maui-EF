@@ -32,7 +32,7 @@ public class GroupRepository
             {
                 foreach (var person in group.Persons)
                 {
-                    Debug.WriteLine($"{person.Id} {person.FirstName}");
+                    Debug.WriteLine($"{person.Id} {person.FirstName} {person.LastName}");
                 }
             }
         }

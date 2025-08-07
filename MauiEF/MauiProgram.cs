@@ -19,8 +19,9 @@ public static class MauiProgram
             });
         // Set database path safely for all platforms (including Android)
         string dbPath = Path.Combine(FileSystem.AppDataDirectory, "dbLibrary123.db");
+        string password = "SavePassword"; // TODO: store in secure place
         builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlite($"Data Source={dbPath}"));
+            options.UseSqlite($"Data Source={dbPath};Password={password}"));
         builder.Services.AddDbContext<AppDbContext>();
         builder.Services.AddSingleton<GroupRepository>();
         

@@ -4,6 +4,12 @@ This is an example Project to use Entity Framework within a MAUI App and still b
 
 The example is based on this Video [EntityframeworkCore code first, SQLite for MAUI.](https://youtu.be/i-oiB0KMZrE)
 
+## Startup
+
+- Start the app in Debug mode.
+- Click the button *Data* on main page.
+- The Debug output of the data in the database is displayed in the debug console.
+
 ## Add Migrations
 
 To add migration you have to edit the `MauiEF.csproj` file.

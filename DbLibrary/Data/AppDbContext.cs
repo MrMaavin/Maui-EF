@@ -17,11 +17,6 @@ public class AppDbContext : DbContext
     public DbSet<Person> Persons { get; set; }
     public DbSet<Group> Groups { get; set; }
 
-    /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlite("Data Source=dbLibrary123.db");
-    }*/
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Group>()

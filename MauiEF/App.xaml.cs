@@ -31,8 +31,8 @@ public partial class App : Application
                     Name = "GroupOne",
                     Persons = new List<Person>
                     {
-                        new Person { FirstName = "peter",  LastName = "Hammer" },
-                        new Person { FirstName = "John", LastName = "Schneider"}
+                        new Person { FirstName = "Peter", LastName = "Doe"},
+                        new Person { FirstName = "John", LastName = "Fox"}
                     }
                 };
                 appDbContext.Groups.Add(groupOne);
