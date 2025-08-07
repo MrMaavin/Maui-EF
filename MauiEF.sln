@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiEF", "MauiEF\MauiEF.csproj", "{D621D4F6-4ECB-42AF-B1AE-B67DC3C4734B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLibrary", "DbLibrary\DbLibrary.csproj", "{18F7078A-5AB4-474D-8B98-233A47D7A8AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{02F61558-0A10-473F-A378-FBDF8852B4F5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D621D4F6-4ECB-42AF-B1AE-B67DC3C4734B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D621D4F6-4ECB-42AF-B1AE-B67DC3C4734B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D621D4F6-4ECB-42AF-B1AE-B67DC3C4734B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D621D4F6-4ECB-42AF-B1AE-B67DC3C4734B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F7078A-5AB4-474D-8B98-233A47D7A8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F7078A-5AB4-474D-8B98-233A47D7A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F7078A-5AB4-474D-8B98-233A47D7A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F7078A-5AB4-474D-8B98-233A47D7A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

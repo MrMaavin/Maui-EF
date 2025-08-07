@@ -1,0 +1,9 @@
+# Rider
+.idea/
+
+# Migrations
+**/Migrations/
+
+# Build results
+**/[Oo]bj/
+**/bin/
